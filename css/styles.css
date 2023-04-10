@@ -95,6 +95,10 @@ h6 {
     background-color: #393053;
 }
 
+#testimonials .container-fluid {
+    max-height: 700px
+}
+
 .test-image {
     width: 10%;
     border-radius: 100%;
@@ -141,15 +145,16 @@ h6 {
 }
 
 /* Footer */
-#cta .container-fluid{
-padding: 6% 20%;
+#cta .container-fluid {
+    padding: 6% 20%;
 }
 
-#footer .container-fluid{
-    padding:1%;
+#footer .container-fluid {
+    padding: 1%;
 }
-.footer-logo{
-    margin:20px 10px;
+
+.footer-logo {
+    margin: 20px 10px;
 }
 
 @media (max-width:1028px) {
